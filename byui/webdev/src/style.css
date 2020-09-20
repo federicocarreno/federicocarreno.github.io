@@ -29,7 +29,7 @@ main {
     margin: 3em 1em 3em 1em;
 }
 
-main h3 {
+main h2 {
     font-size: 1.5em;
     margin-bottom: 0;
     color: #444; 
@@ -37,7 +37,7 @@ main h3 {
 
 footer {
     background-color: #ddd;
-    padding: 0.5em;
+    padding: 0.75em;
     border-radius:  1em;
     text-align: center;
     color: #444;
@@ -50,8 +50,9 @@ footer a {
     color: #444;
 }
 
-footer h5 {
+#update {
     margin-top: 0;
-    text-decoration: none;
+    font-weight: bold;
     color: #e16b1b;
+    font-size: 0.85em;
 }
