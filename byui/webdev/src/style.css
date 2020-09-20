@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Righteous&display=swap');
+
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    max-width: 900px;
+}
+
+h1 {
+    font-family: "Righteous";
+    color: #e16b1b;
+    font-size: 3em;
+}
+
+header {
+    background-color: #ddd;
+    padding: 1em;
+    border-radius:  1em;
+}
+
+header img {
+    float: right;
+    max-width: 200px;
+    box-shadow: 6px 6px 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+main {
+    margin: 3em 0.5em 3em 0.5em;
+}
+
+main h3 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+    color: #444; 
+}
+
+footer {
+    background-color: #ddd;
+    padding: 0.5em;
+    border-radius:  1em;
+    text-align: center;
+    color: #444;
+}
+
+footer p {
+    margin-bottom: 0.25em;
+}
+footer a {
+    color: #444;
+}
+
+footer h5 {
+    margin-top: 0;
+    text-decoration: none;
+    color: #e16b1b;
+}
