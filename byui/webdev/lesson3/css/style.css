@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Sansita+Swashed:wght@300;700&display=swap');
 
 body {
     font-family: "Open Sans", Helvetica, sans-serif;
@@ -13,18 +13,20 @@ header {
 }
 
 header h1 {
-    font-family: "Righteous";
-    color: #e16b1b;
+    font-family: "Sansita Swashed";
+    color: #0D9956;
     font-size: 2.5em;
 }
 nav ul{
     list-style-type: none;
+    max-width: 900px;
+    margin: 2em auto;
 }
 nav ul li a{
     display: block;
     text-decoration: none;
     font-weight: 700;
-    color: #e16b1b;
+    color: #0D9956;
 }
 nav a:hover {
     color: #444;
@@ -48,14 +50,16 @@ div img {
 #domain a{
     font-size: 1.5em;
     text-decoration: none;
-    color: #e16b1b;
+    color: #0D9956;
 }
 #domain p{
     font-style: italic;
     color: #444;
 }
 .brand {
-    color: #e16b1b;
+    color: #0D9956;
+    font-weight: 700;
+    font-family: "Sansita Swashed";
     font-weight: 700;
 }
 
@@ -109,6 +113,6 @@ footer a {
 #update {
     margin-top: 0;
     font-weight: bold;
-    color: #e16b1b;
+    color: #0D9956;
     font-size: 0.85em;
 }
