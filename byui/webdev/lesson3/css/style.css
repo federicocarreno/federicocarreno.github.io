@@ -45,8 +45,6 @@ section {
 div h1,h2,h3,a,img,p {
     padding: 0.5em;
 }
-div img {
-}
 #domain a{
     font-size: 1.5em;
     text-decoration: none;

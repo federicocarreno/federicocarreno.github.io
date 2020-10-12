@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Sansita+Swashed:wght@300;700&display=swap');
+
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+/* Base view (mobile)*/
+/* HEADER --------------------------------------------*/
+header {
+    background-color: #ddd;
+    padding: 0.5em;
+    display: flex;
+	align-items:center;
+    justify-content:left;
+}
+header img {
+    max-width: 60px;
+    margin: 0.1em;
+}
+header h1 {
+    font-size: 1.25em;
+}
+header h3 {
+    font-style: italic;
+    font-size: 0.75em;
+    color: #444;
+}
+
+/* Hamburg Menu ----------*/
+nav {
+    position: relative ;
+	margin: 0 auto;
+	max-width: 120px;
+}
+.menu-list {
+	list-style: none;
+	padding: 0;
+}
+.menu-list li:first-child {
+	display: block;
+}
+.menu-list li {
+	display: none;
+}
+.menu-list a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+.menu-list a:hover {
+	color: white;
+	background-color: black;
+}
+
+.responsive li {
+	display: block;
+}
+/*Five Days Section*/
+#five div {
+    display: none;
+}
+/*FOOTER ----------------------------------------*/
+footer {
+    background-color: #ddd;
+    padding: 0.75em;
+    text-align: center;
+    color: #444;
+    max-width: 1100px;
+}
+/*Contact Section*/
+
+#contact #social {
+    display: none;
+}
