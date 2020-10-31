@@ -1,0 +1,25 @@
+/* Medium view (tablet)---------------------------*/
+@media only screen and (min-width: 37.5em) {
+
+
+    nav {
+        position: relative ;
+        margin: 0 auto;
+        max-width: 37.5em;
+    }
+    .menu-list {
+        display: flex;
+    }
+
+    .menu-list li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    .menu-list a {
+        text-align: center;
+    }
+    .menu-list li:first-child {
+        display: none;
+    }
+
+}
