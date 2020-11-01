@@ -48,15 +48,13 @@ nav {
 	text-align: left;
 	text-decoration: none;
 	color: black;
-	font-weight: 700;
 }
 .menu-list a:hover {
 	color: white;
 	background-color: black;
 }
 
-.menu-list li #preston {
-    background-color: #999;
+.menu-list #preston a{
     text-decoration: underline;
     font-weight: bold;
 }
